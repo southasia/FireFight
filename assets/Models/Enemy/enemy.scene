@@ -1,0 +1,59 @@
+<scene formatVersion="1.0" upAxis="y" unitsPerMeter="39.3701" minOgreVersion="1.7" ogreMaxVersion="2.4.1" author="OgreMax Scene Exporter (www.ogremax.com)" application="3DS Max">
+    <environment>
+        <colourAmbient r="0.333333" g="0.333333" b="0.333333" />
+        <colourBackground r="0" g="0" b="0" />
+        <clipping near="0" far="100000" />
+    </environment>
+    <nodes>
+        <node name="body">
+            <position x="-6.30899" y="6.74836e-009" z="0.154385" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0.270598" qy="0.653282" qz="0.653281" qw="0.270598" />
+            <entity name="body" castShadows="true" receiveShadows="true" meshFile="body.mesh">
+                <subentities>
+                    <subentity index="0" materialName="NoMaterial" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="head">
+            <position x="-6.309" y="31.7505" z="-24.8284" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0.5" qy="0.5" qz="0.5" qw="0.5" />
+            <entity name="head" castShadows="true" receiveShadows="true" meshFile="head.mesh">
+                <subentities>
+                    <subentity index="0" materialName="NoMaterial" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="eye-left">
+            <position x="-4.36849" y="36.3306" z="-3.21796" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="-0.5" qy="-0.5" qz="0.5" qw="-0.5" />
+            <entity name="eye-left" castShadows="true" receiveShadows="true" meshFile="eye-left.mesh">
+                <subentities>
+                    <subentity index="0" materialName="NoMaterial" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="eye-right">
+            <position x="-4.36849" y="36.3306" z="8.33008" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="-0.5" qy="-0.5" qz="0.5" qw="-0.5" />
+            <entity name="eye-right" castShadows="true" receiveShadows="true" meshFile="eye-right.mesh">
+                <subentities>
+                    <subentity index="0" materialName="NoMaterial" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="mouth">
+            <position x="-2.06356" y="29.2619" z="-0.0521915" />
+            <scale x="0.386593" y="0.240129" z="0.386593" />
+            <rotation qx="0.707107" qy="0.707107" qz="-8.42937e-008" qw="-5.33851e-008" />
+            <entity name="mouth" castShadows="true" receiveShadows="true" meshFile="mouth.mesh">
+                <subentities>
+                    <subentity index="0" materialName="NoMaterial" />
+                </subentities>
+            </entity>
+        </node>
+    </nodes>
+</scene>
