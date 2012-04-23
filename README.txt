@@ -1,13 +1,13 @@
 README:
 CS428 FireFight
-Must have jMonkey Jar for code to work
 
-Automated Tests:
-Check/Run test folder using Junit4
+This is a 3D game built in JAVA using jMonkeyEngine3.
 
-Manual Tests: Visual testing
-Control Test: Using the either WASD or the Arrow keys move the ship
-Boundary Test: Test that the ship will not move outside of an invisible wall after holding the control WASD/Arrow keys
-Shooting Test: Pressing the spacebar will make the ship shoot
-Collision: Hitting an obstacle will make the ship take damage (HP bar on bottom decreases) and the will spin
-	Also after hitting a obstacle, the ship will be "invincible", which lets the ship pass through other obstacle without taking damage.
+Controls:
+fly - wasd
+shoot - space
+
+Goal: Make it to the end of the level and get the highest score.  The orange balls give you ammo, the green balls give you health, and the yellow balls give you the ability to fly through objects without taking damage.  You get points for shooting buildings and enemies. 
+
+To run this project import into eclipse.  The jar files are inluded in this version of the project.  If something doesn't work right make sure that the build path for the project includes the jars in the Jmonkey/jME3_2012-01-19/lib and /jMonkeyJars/jME3_2012-01-19/jMonkeinEngine3.jar
+
