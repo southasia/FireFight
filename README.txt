@@ -3,6 +3,11 @@ CS428 FireFight
 
 This is a 3D game built in JAVA using jMonkeyEngine3.
 
+A demo can be viewed here:
+
+http://www.youtube.com/watch?v=1BkQM-O3jSU
+
+
 Controls:
 fly - wasd
 shoot - space
